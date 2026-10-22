@@ -1,0 +1,31 @@
+# --- Never commit secrets ---
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+*.p12
+*.pfx
+.env
+.env.*
+credentials
+.aws/
+*.tfstate
+*.tfstate.*
+
+# --- Unredacted originals / raw captures ---
+originals/
+**/raw/
+*.pcap
+*.pcapng
+
+# --- Lab submission docs (may contain personal info) ---
+*.docx
+*.pdf
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
