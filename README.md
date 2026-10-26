@@ -16,6 +16,7 @@ Documenting what I'm learning as I study for SC-300.
 | 06 | [Authentication Methods: Passwordless, FIDO2, and Monitoring](entra/lab-06-authentication-methods/) | Method strength, system-preferred MFA, report suspicious activity, FIDO2, Microsoft Authenticator, Windows Hello for Business, CBA, registration and usage reports |
 | 07 | [Self-Service Password Reset (SSPR)](entra/lab-07-self-service-password-reset/) | SSPR licensing, selected-group scope, methods required to reset, security questions, administrator policy, user reset with Authenticator |
 | 08 | [Disabling Accounts, Password Protection, and Smart Lockout](entra/lab-08-disable-accounts-password-protection/) | Disable accounts, revoke sessions, reset password, custom banned passwords, password protection for AD, smart lockout |
+| 09 | [Conditional Access: Policies, Named Locations, Terms of Use, and Authentication Strengths](entra/lab-09-conditional-access/) | Security defaults, signals and decisions, assignments vs access controls, grant and session controls, Report-only, named locations, terms of use, authentication strengths, What If |
 
 ## [Labs](labs/)
 

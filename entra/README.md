@@ -12,6 +12,7 @@ Identity and Access Management labs on **Microsoft Entra ID**. These labs docume
 | 06 | [Authentication Methods: Passwordless, FIDO2, and Monitoring](lab-06-authentication-methods/) | Method strength, system-preferred MFA, report suspicious activity, FIDO2, Microsoft Authenticator, Windows Hello for Business, CBA, registration and usage reports |
 | 07 | [Self-Service Password Reset (SSPR)](lab-07-self-service-password-reset/) | SSPR licensing, selected-group scope, methods required to reset, security questions, administrator policy, user reset with Authenticator |
 | 08 | [Disabling Accounts, Password Protection, and Smart Lockout](lab-08-disable-accounts-password-protection/) | Disable accounts, revoke sessions, reset password, custom banned passwords, password protection for AD, smart lockout |
+| 09 | [Conditional Access: Policies, Named Locations, Terms of Use, and Authentication Strengths](lab-09-conditional-access/) | Security defaults, signals and decisions, assignments vs access controls, grant and session controls, Report-only, named locations, terms of use, authentication strengths, What If |
 
 **Planned focus areas (SC-300 domains):**
 - Implement and manage user identities (users, groups, external identities, hybrid identity)
