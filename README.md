@@ -26,8 +26,9 @@ Labs I build on my own from what I learned in the course exercises.
 
 | # | Lab | Topics |
 |---|---|---|
-| 01 | [Building a Hybrid Identity Lab: Active Directory on Hyper-V (Part 1)](labs/lab-01-hybrid-identity-ad-entra-connect/) | Hyper-V, Windows Server 2022, AD DS, DNS, new forest, domain join. *Part 2 (Entra Connect) in progress* |
-| 02 | [Zero Trust Privileged Access: Entra PIM + Phishing-Resistant MFA](labs/lab-02-pim-phishing-resistant-mfa/) | PIM just-in-time Global Admin, authentication context, Conditional Access, authentication strength, device-bound passkey, break glass, log validation |
+| 01 | [Building a Hybrid Identity Lab: Active Directory on Hyper-V (Part 1)](labs/lab-01-hybrid-identity-ad-entra-connect/) | Hyper-V, Windows Server 2022, AD DS, DNS, new forest, domain join |
+| 02 | [Building a Hybrid Identity Lab: Entra Connect Sync with Password Hash Sync (Part 2)](labs/lab-02-entra-connect-sync-phs/) | Entra Connect Sync, password hash sync, OU filtering, UPN suffixes, source anchor, Seamless SSO, password and group writeback |
+| 03 | [Zero Trust Privileged Access: Entra PIM + Phishing-Resistant MFA](labs/lab-03-pim-phishing-resistant-mfa/) | PIM just-in-time Global Admin, authentication context, Conditional Access, authentication strength, device-bound passkey, break glass, log validation |
 
 > For IAM on AWS, see [Introduction to AWS IAM](https://github.com/willkhot/Cloud-Labs/tree/main/aws/lab-01-intro-to-iam) in my Cloud Labs.
 

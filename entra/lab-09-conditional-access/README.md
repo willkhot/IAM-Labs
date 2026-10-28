@@ -240,7 +240,7 @@ You can also make users expand every section before accepting, accept again on e
 - The method also has to be turned on for the user in the tenant's authentication methods policy
 - Creating it doesn't enforce anything. You apply it through **Grant → Require authentication strength** in a policy
 
-> For example, if only **Passkeys (FIDO2)** is selected, a password + Authenticator push can't meet the requirement. I used the built-in **Phishing-resistant MFA** strength this way in my [Zero Trust PIM lab](../../labs/lab-02-pim-phishing-resistant-mfa/).
+> For example, if only **Passkeys (FIDO2)** is selected, a password + Authenticator push can't meet the requirement. I used the built-in **Phishing-resistant MFA** strength this way in my [Zero Trust PIM lab](../../labs/lab-03-pim-phishing-resistant-mfa/).
 
 ---
 
@@ -251,7 +251,7 @@ Two more tools on the Conditional Access page:
 - **Create new policy from templates** builds a policy from Microsoft's recommended templates. It's a good way to learn, because you can open the policy afterward and see how each section was set up.
 - **What If** tests which policies would apply to a sign-in. You pick a user, an app, and details like device platform or location, and it lists the policies that would and wouldn't apply. It's the main tool for figuring out why someone is getting blocked or why a policy isn't kicking in.
 
-> I didn't take screenshots of What If in this lab, but I used it to validate the policy in my [Zero Trust PIM lab](../../labs/lab-02-pim-phishing-resistant-mfa/).
+> I didn't take screenshots of What If in this lab, but I used it to validate the policy in my [Zero Trust PIM lab](../../labs/lab-03-pim-phishing-resistant-mfa/).
 
 ---
 

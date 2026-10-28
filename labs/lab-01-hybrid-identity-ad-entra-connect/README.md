@@ -8,7 +8,7 @@ In this part I set up a small company network for my made-up company, **Bam Co.*
 
 The big takeaway is that Active Directory depends on **DNS**. The workstation couldn't find the domain until I pointed its DNS at the domain controller. Once I did, the join worked on the first try.
 
-Part 2 will connect this domain to my Entra tenant with **Entra Connect**. See [To Be Continued](#to-be-continued) at the bottom.
+In [Part 2](../lab-02-entra-connect-sync-phs/) I connect this domain to my Entra tenant with **Entra Connect Sync**.
 
 ## Objectives
 
@@ -212,10 +212,9 @@ And it worked:
 
 ---
 
-## To Be Continued
+## Up Next
 
-**Part 2: Connect Active Directory to Microsoft Entra ID with Entra Connect.**
-*This section will be updated when Part 2 is done.*
+**[Part 2: Entra Connect Sync with Password Hash Sync](../lab-02-entra-connect-sync-phs/)**, where I sync users from `bamco.internal` to Microsoft Entra ID.
 
 ---
 

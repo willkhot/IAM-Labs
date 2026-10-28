@@ -1,4 +1,4 @@
-# Lab 2 — Zero Trust Privileged Access: Entra PIM + Phishing-Resistant MFA
+# Lab 3 — Zero Trust Privileged Access: Entra PIM + Phishing-Resistant MFA
 
 ## Overview
 
