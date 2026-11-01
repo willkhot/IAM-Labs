@@ -15,6 +15,7 @@ Identity and Access Management labs on **Microsoft Entra ID**. These labs docume
 | 09 | [Conditional Access: Policies, Named Locations, Terms of Use, and Authentication Strengths](lab-09-conditional-access/) | Security defaults, signals and decisions, assignments vs access controls, grant and session controls, Report-only, named locations, terms of use, authentication strengths, What If |
 | 10 | [Microsoft Entra ID Protection: Risk Detections, Risk Policies, and Reports](lab-10-id-protection/) | ID Protection roles and licensing, sign-in risk vs user risk, risk detections, risk-based Conditional Access, risk remediation, risk reports |
 | 11 | [Microsoft Defender for Identity: Threat Detection, Sensors, and Honeytokens](lab-11-defender-for-identity/) | On-prem AD threat detection, behavioral analytics, kill chain, Defender portal, sensor activation vs classic sensor, honeytokens |
+| 12 | [Azure Roles and Managed Identities](lab-12-azure-roles-managed-identities/) | Entra roles vs Azure roles, RBAC scope, Owner, Contributor, Reader, User Access Administrator, custom roles, Global Administrator elevation, system-assigned and user-assigned managed identities |
 
 **Planned focus areas (SC-300 domains):**
 - Implement and manage user identities (users, groups, external identities, hybrid identity)
