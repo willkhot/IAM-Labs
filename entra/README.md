@@ -16,6 +16,7 @@ Identity and Access Management labs on **Microsoft Entra ID**. These labs docume
 | 10 | [Microsoft Entra ID Protection: Risk Detections, Risk Policies, and Reports](lab-10-id-protection/) | ID Protection roles and licensing, sign-in risk vs user risk, risk detections, risk-based Conditional Access, risk remediation, risk reports |
 | 11 | [Microsoft Defender for Identity: Threat Detection, Sensors, and Honeytokens](lab-11-defender-for-identity/) | On-prem AD threat detection, behavioral analytics, kill chain, Defender portal, sensor activation vs classic sensor, honeytokens |
 | 12 | [Azure Roles and Managed Identities](lab-12-azure-roles-managed-identities/) | Entra roles vs Azure roles, RBAC scope, Owner, Contributor, Reader, User Access Administrator, custom roles, Global Administrator elevation, system-assigned and user-assigned managed identities |
+| 13 | [Azure Key Vault: Creating a Vault, RBAC Roles, and Secrets](lab-13-azure-key-vault/) | Key vault creation, soft delete, purge protection, RBAC vs access policies, networking, built-in Key Vault roles, secrets, expiration dates, Bastion with Key Vault |
 
 **Planned focus areas (SC-300 domains):**
 - Implement and manage user identities (users, groups, external identities, hybrid identity)
