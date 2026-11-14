@@ -19,6 +19,7 @@ Identity and Access Management labs on **Microsoft Entra ID**. These labs docume
 | 13 | [Azure Key Vault: Creating a Vault, RBAC Roles, and Secrets](lab-13-azure-key-vault/) | Key vault creation, soft delete, purge protection, RBAC vs access policies, networking, built-in Key Vault roles, secrets, expiration dates, Bastion with Key Vault |
 | 14 | [Microsoft Defender for Cloud Apps: Cloud Discovery, App Risk, and Policies](lab-14-defender-for-cloud-apps/) | CASB, shadow IT, connectors, automatic log upload, log collectors, snapshot reports, custom log parser, app risk scores, sanctioned vs unsanctioned apps, user and IP investigation, policy templates |
 | 15 | [App Registration in Microsoft Entra ID](lab-15-app-registration/) | App admin roles, application proxy, application objects vs service principals, multitenant consent flow, registering an app, credentials, optional claims, delegated vs application permissions, admin consent, app roles, manifest, owners |
+| 16 | [Enterprise Apps in Microsoft Entra ID](lab-16-enterprise-apps/) | Application ID vs object ID, sign-in/assignment/visibility settings, user assignment with app roles, user and admin consent, permission classifications, application proxy and private network connector, App Gallery, SSO and provisioning, app collections |
 
 **Planned focus areas (SC-300 domains):**
 - Implement and manage user identities (users, groups, external identities, hybrid identity)
