@@ -48,6 +48,12 @@ The goal was to remove standing privileged access entirely: the account holds GA
 | Sign-in method | Passkey (FIDO2) in Microsoft Authenticator on iPhone |
 | Validation | What If, sign-in logs, audit logs, policy impact |
 
+## Architecture
+
+This is the architecture.
+
+![Architecture: PIM activation of Global Administrator triggering a Conditional Access authentication context that requires a passkey](screenshots/00-architecture.png)
+
 ---
 
 ## What I Built

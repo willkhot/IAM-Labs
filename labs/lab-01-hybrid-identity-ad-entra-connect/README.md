@@ -30,25 +30,14 @@ In [Part 2](../lab-02-entra-connect-sync-phs/) I connect this domain to my Entra
 
 ## Lab Environment
 
+This is the architecture.
+
+![Lab architecture: BAM-DC01 and BAM-WS01 on Hyper-V in the bamco.internal domain](screenshots/00-architecture.png)
+
 | Machine | Role | OS | Memory | IP address |
 |---|---|---|---|---|
 | `BAM-DC01` | Domain controller and DNS server | Windows Server 2022 | 8 GB | `192.168.1.31` |
 | `BAM-WS01` | Workstation | Windows 11 Enterprise | 4 GB | `192.168.1.33` |
-
-```text
-              Hyper-V host (my PC)
-   ┌──────────────────────────────────────────┐
-   │                                          │
-   │   BAM-DC01                 BAM-WS01      │
-   │   Windows Server 2022      Windows 11    │
-   │   AD DS + DNS              domain member │
-   │   192.168.1.31             192.168.1.33  │
-   │        │                        │        │
-   │        └──── External switch ───┘        │
-   └──────────────────────────────────────────┘
-
-   Domain: bamco.internal   (NetBIOS name: BAMCO)
-```
 
 ---
 

@@ -26,6 +26,12 @@ The big takeaway is that creating a key vault doesn't let you use it. Access to 
 | Features | Azure Key Vault, Azure RBAC, Access control (IAM), Azure Bastion |
 | Course | Microsoft Learn: SC-300 Identity and Access Administrator |
 
+## Architecture
+
+This is the architecture.
+
+![Architecture: KV1appli key vault in sc-300-demo with a Key Vault Administrator role assignment and the Bastion demo](screenshots/00-architecture.png)
+
 ---
 
 ## Task 1 — Creating a Key Vault

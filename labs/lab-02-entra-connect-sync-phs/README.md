@@ -33,21 +33,9 @@ The main issue I ran into was naming. My domain ends in `.internal`, which can't
 
 ## Lab Environment
 
-```text
-        ON-PREMISES (Hyper-V on my PC)                          CLOUD
+This is the architecture.
 
-  ┌─────────────────────────────────────┐            ┌──────────────────────────┐
-  │  BAM-DC01  (Windows Server 2022)    │            │                          │
-  │  AD DS + DNS + Entra Connect Sync   │            │   Microsoft Entra ID     │
-  │                                     │            │   (Bam Co. tenant)       │
-  │  bamco.internal                     │            │                          │
-  │   └─ OU: Entra Connect Sync  ───────┼── sync ──► │   Jerry Jones   ✔ synced │
-  │       · Jerry Jones   (Sales)       │  (PHS)     │   Phil Palleto  ✔ synced │
-  │       · Phil Palleto  (Finance)     │            │   Sally Salzo   ✔ synced │
-  │       · Sally Salzo   (HR)          │ ◄─ pwd ─── │                          │
-  │       · St. Louis On Prem Users     │ writeback  │                          │
-  └─────────────────────────────────────┘            └──────────────────────────┘
-```
+![Lab architecture: Entra Connect Sync on BAM-DC01 syncing the Entra Connect Sync OU to Microsoft Entra ID](screenshots/00-architecture.png)
 
 ### How Connect Sync works
 
