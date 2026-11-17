@@ -47,6 +47,7 @@ Identity and Access Management labs on **Microsoft Entra ID**. These labs docume
 | 14 | [Microsoft Defender for Cloud Apps: Cloud Discovery, App Risk, and Policies](3-workload-identities/lab-14-defender-for-cloud-apps/) | CASB, shadow IT, connectors, automatic log upload, log collectors, snapshot reports, custom log parser, app risk scores, sanctioned vs unsanctioned apps, user and IP investigation, policy templates |
 | 15 | [App Registration in Microsoft Entra ID](3-workload-identities/lab-15-app-registration/) | App admin roles, application proxy, application objects vs service principals, multitenant consent flow, registering an app, credentials, optional claims, delegated vs application permissions, admin consent, app roles, manifest, owners |
 | 16 | [Enterprise Apps in Microsoft Entra ID](3-workload-identities/lab-16-enterprise-apps/) | Application ID vs object ID, sign-in/assignment/visibility settings, user assignment with app roles, user and admin consent, permission classifications, application proxy and private network connector, App Gallery, SSO and provisioning, app collections |
+| 17 | [Entitlement Management in Microsoft Entra ID](lab-17-entitlement-management/) | Identity lifecycle, catalogs, access packages, resource roles, request policies, approvals, requestor questions, expiration, access reviews, My Access requests, separation of duties, connected organizations, lifecycle of external users |
 
 **Planned focus areas (SC-300 domains):**
 - Implement and manage user identities (users, groups, external identities, hybrid identity)
